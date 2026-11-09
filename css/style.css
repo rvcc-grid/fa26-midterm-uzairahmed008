@@ -1,118 +1,171 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family:'Poppins', sans-serif;
-    background:#f4f6f8;
-    color:#1f2937;
-    line-height:1.6;
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+    line-height: 1.6;
 }
 
 /* HEADER */
 
-header{
-    background:#2563eb;
-    color:white;
-    padding:3rem 2rem;
+header {
+    background: #2563eb;
+    color: white;
+    padding: 3rem 2rem;
 }
 
-header h1{
-    text-align:center;
-    font-size:3rem;
-    margin-bottom:2rem;
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* HERO */
 
-#hero{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    align-items:center;
+#hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
 }
 
-#hero img{
-    width:100%;
-    max-width:700px;
-    border-radius:12px;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
+#hero img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
 }
 
-#hero div{
-    max-width:900px;
-    text-align:center;
+#hero div {
+    max-width: 900px;
+    text-align: center;
 }
 
-#hero h2{
-    font-size:2rem;
-    margin-bottom:1rem;
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-#hero p{
-    font-size:1.1rem;
+#hero p {
+    font-size: 1.1rem;
 }
 
 /* MAIN */
 
-main{
-    max-width:1200px;
-    margin:auto;
-    padding:3rem 1.5rem;
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 3rem 1.5rem;
 }
 
 /* SECTION HEADINGS */
 
-h2{
-    text-align:center;
-    color:#2563eb;
-    font-size:2rem;
-    margin-bottom:2rem;
+h2 {
+    text-align: center;
+    color: #2563eb;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* PROJECTS */
 
-.project{
-    background:white;
-    border-radius:15px;
-    overflow:hidden;
-    margin-bottom:2rem;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+.project {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
 }
 
-.project img{
-    width:100%;
-    display:block;
+.project img {
+    width: 100%;
+    display: block;
 }
 
-.description{
-    padding:1.5rem;
+.description {
+    padding: 1.5rem;
 }
 
-.description h3{
-    color:#22c55e;
-    margin-bottom:.75rem;
+.description h3 {
+    color: #22c55e;
+    margin-bottom: .75rem;
 }
 
 /* REVIEWS */
 
-#reviews{
-    margin-top:3rem;
+#reviews {
+    margin-top: 3rem;
 }
 
-.review{
-    background:white;
-    border-radius:15px;
-    padding:1.5rem;
-    margin-bottom:1.5rem;
-    box-shadow:0 4px 10px rgba(0,0,0,.08);
+.review {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
 }
 
-.review .name{
-    font-size:1.2rem;
-    font-weight:
+.review .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* Fixed the cut-off line here */
+}
+
+.review .title {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.review .rating {
+    margin-bottom: 0.5rem;
+}
+
+.review .content {
+    font-weight: 300;
+}
+
+/* FOOTER */
+
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+/* MIDTERM VIDEO SECTION (NEW) */
+
+#midterm-video {
+    text-align: center;
+    padding: 2rem;
+    margin: 3rem auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+#myVideo {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#midterm-video p {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #6b7280;
+}
